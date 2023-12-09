@@ -1,10 +1,10 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "wild",
-    image: "https://repo-main.wildmoney.pro/blog-data/avatar/notion-avatar-1702145421281.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
+    name: "Wild",
+    image: "https://repo-main.wildmoney.pro/blog-data/avatar/wmp-logo-wildmoney.pro.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "Crypto Trader",
+    bio: "Investor, Crypto Trader",
     email: "",
     linkedin: "",
     github: "",
@@ -23,7 +23,7 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://news.wildmoney.pro",
   since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
@@ -62,7 +62,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+  revalidateTime: 2160 * 7, // revalidate time for [slug], index /def 21600 * 7
 }
 
 module.exports = { CONFIG }
