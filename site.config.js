@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Wild",
-    image: "https://repo-main.wildmoney.pro/blog-data/avatar/wmp-logo-wildmoney.pro.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/wmp-logo-wildmoney.pro.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Crypto Trader",
     bio: "Investor, Crypto Trader",
     email: "",
